@@ -55,7 +55,7 @@ This **preview** release provides all of SDRs capabilities plus:
 * Enhances SDRs `@RedisHash` via `@EnableRedisEnhancedRepositories` to:
   - uses Redis' native search engine (RediSearch) for secondary indexing
   - uses [ULID](https://github.com/ulid/spec) for `@Id` annotated fields
-* `RedisDocumentRepository` with automatic implementation of Repository interfaces for complex querying capabilities using `@EnableRedisDocumentRepositories`
+* `RedisDocumentRepository` with automatic implementation of Repository interfaces for \lex querying capabilities using `@EnableRedisDocumentRepositories`
 * Declarative Search Indices via `@Indexable`
 * Full-text Search Indices via `@Searchable`
 * `EntityStream`s: Streams-based Query Builder
@@ -74,7 +74,7 @@ Redis OM Spring relies on the power of the [RediSearch][redisearch-url] and [Red
 We have provided a docker compose YAML file for you to quickly get started. To launch the docker compose application, on the command line (or via Docker Desktop), clone this repository and run (from the root folder):
 
 ```bash
-docker compose up
+docker-compose up
 ```
 
 ### The SpringBoot App
